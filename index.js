@@ -1,5 +1,3 @@
-// Fiverr: https://www.fiverr.com/amirdev_78
-
 const {
     Client,
     GatewayIntentBits,
@@ -191,5 +189,3 @@ client.on('interactionCreate', async (interaction) => {
 })
 
 client.login(botToken).catch((err) => console.log('Bad token.'));
-
-// Fiverr: https://www.fiverr.com/amirdev_78
