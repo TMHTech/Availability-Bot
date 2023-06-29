@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "discord.js": "^14.8.0",
+    "quick.db": "^9.0.10"
+  }
+}
