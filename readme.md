@@ -44,10 +44,12 @@ Use the available commands to set and check user availability.
 
 Set your availability time.
 
-- `time`: Your availability time in 24-hour format (00:00 - 23:59).
+- `start_time`: Your availability start time in 24-hour format (00:00 - 23:59).
+- `end_time`: Your availability end time in 24-hour format (00:00 - 23:59).
 - `gmt`: Your time zone in the format +HH:MM or -HH:MM.
+- `days`: Days of the week you are available (e.g., Mon,Tue,Wed).
 
-Example: `/setavailable time:10:30 gmt:+02:00`
+Example: `/setavailable start_time:10:30 end_time:18:00 gmt:+02:00 days:Mon,Tue,Wed`
 
 ### `/available`
 
@@ -59,6 +61,6 @@ Example: `/available @username`
 
 ### `/availablenow`
 
-Get a list of currently available users.
+Get a list of users who are currently available based on their set time range and days of the week.
 
 Example: `/availablenow`
